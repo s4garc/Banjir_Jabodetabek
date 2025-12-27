@@ -9,12 +9,11 @@ from peta_utils import generate_flood_map
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
     page_title="Flood Susceptibility Map",
-    page_icon="🌊",
     layout="wide"
 )
 
 # --- JUDUL & DESKRIPSI ---
-st.title("🌊 Peta Kerentanan Banjir Jabodetabek")
+st.title("Peta Kerentanan Banjir Jabodetabek")
 st.markdown("""
 Aplikasi ini menampilkan hasil analisis spasial prediksi banjir menggunakan algoritma 
 **Machine Learning (Random Forest)**. Model dilatih berdasarkan parameter fisik wilayah:
@@ -82,6 +81,7 @@ with col2:
     **Warna Biru:** Menunjukkan area dengan probabilitas banjir rendah (aman). Biasanya dataran tinggi.
 
     """)
+
 
 
 
