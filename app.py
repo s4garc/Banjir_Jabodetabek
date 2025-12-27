@@ -18,7 +18,7 @@ st.markdown("""
 Aplikasi ini menampilkan hasil analisis spasial prediksi banjir menggunakan algoritma 
 **Machine Learning (Random Forest)**. Model dilatih berdasarkan parameter fisik wilayah:
 - **Slope (Kemiringan Lereng)**
-- **Elevation (Ketinggian Lahan)**
+- **Elevation (Ketinggian)**
 - **Land Cover (Tutupan Lahan)**
 """)
 
@@ -27,12 +27,17 @@ with st.sidebar:
     st.header("Informasi Proyek")
     st.info("""
     **Metode:** Random Forest Classifier  
-    **Akurasi Model:** 87.62%  
+    **Akurasi Model:** 86.88%%  
     **Area:** Jabodetabek  
     **Data:** Kaggle & Google Earth Engine
     """)
     st.write("---")
-    st.write("Dibuat oleh:/nYoga Albi Mustofa/nLalu Muhammad Zaqi Arifiandi/nImam Faqih Arrijal")
+    st.markdown("""
+    **Dibuat oleh:**
+    * Yoga Albi Mustofa
+    * Lalu Muhammad Zaqi Arifiandi
+    * Imam Faqih Arrijal
+    """)
 
 # --- LOAD DATA (DENGAN CACHE AGAR CEPAT) ---
 @st.cache_data
@@ -81,6 +86,7 @@ with col2:
     **Warna Biru:** Menunjukkan area dengan probabilitas banjir rendah (aman). Biasanya dataran tinggi.
 
     """)
+
 
 
 
