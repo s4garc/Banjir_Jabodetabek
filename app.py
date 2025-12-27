@@ -33,9 +33,7 @@ with st.sidebar:
     **Data:** Kaggle & Google Earth Engine
     """)
     st.write("---")
-    st.write("Dibuat oleh: Yoga Albi Mustofa")
-    st.write("Dibuat oleh: Lalu Muhammad Zaqi Arifiandi")
-    st.write("Dibuat oleh: Imam Faqih Arrijal")
+    st.write("Dibuat oleh:/nYoga Albi Mustofa/nLalu Muhammad Zaqi Arifiandi/nImam Faqih Arrijal")
 
 # --- LOAD DATA (DENGAN CACHE AGAR CEPAT) ---
 @st.cache_data
@@ -84,5 +82,6 @@ with col2:
     **Warna Biru:** Menunjukkan area dengan probabilitas banjir rendah (aman). Biasanya dataran tinggi.
 
     """)
+
 
 
