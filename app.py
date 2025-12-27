@@ -81,11 +81,12 @@ with col2:
     
     st.write("")
     st.write("""
-    **Warna Merah:** Menunjukkan area dengan probabilitas banjir yang tinggi. Biasanya berada di dataran rendah atau area dengan drainase buruk.
+    **Warna Merah:** Menunjukkan area dengan probabilitas banjir yang tinggi.
     
-    **Warna Biru:** Menunjukkan area dengan probabilitas banjir rendah (aman). Biasanya dataran tinggi.
+    **Warna Biru:** Menunjukkan area dengan probabilitas banjir rendah (aman).
 
     """)
+
 
 
 
