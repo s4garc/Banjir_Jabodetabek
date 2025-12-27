@@ -1,4 +1,3 @@
-!pip install geopandas
 import streamlit as st
 import geopandas as gpd
 from streamlit_folium import st_folium
@@ -85,4 +84,5 @@ with col2:
     **Warna Biru:** Menunjukkan area dengan probabilitas banjir rendah (aman). Biasanya dataran tinggi.
 
     """)
+
 
